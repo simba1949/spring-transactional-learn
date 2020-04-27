@@ -11,15 +11,16 @@ spring.boot=2.2.5.RELEASE
 相关链接：
 
 * spring 事务官方说明：https://docs.spring.io/spring/docs/5.2.5.RELEASE/spring-framework-reference/data-access.html#spring-data-tier
+* 验证代码地址：https://github.com/simba1949/spring-transactional-learn.git
 
 ## Spring 事务传播说明（主）
 
 * 在不同类中各个事务具有事务传播特性，非事务方法调用是事务方法有事务产生；事务方法调用事务方法，事务会在调用者和被调用者进行传播；
 * 在同一个类中，非事务方法调用事务方法无任何事务产生；事务方法调用事务方法只对当前调用方法产生事务；
 
-验证代码Github地址：
+验证代码Github地址：https://github.com/simba1949/spring-transactional-learn.git
 
-备注：运行代码需要查看控制日志
+*备注：运行代码需要查看控制日志*
 
 * 事务创建：Creating new transaction with name
 * 事务提交：Initiating transaction commit
