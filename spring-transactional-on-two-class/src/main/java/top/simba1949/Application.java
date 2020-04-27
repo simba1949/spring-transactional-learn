@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2020/4/26 18:46
  */
 @SpringBootApplication
-@MapperScan(basePackages = "top.top.simba1949.mapper")
+@MapperScan(basePackages = "top.simba1949.mapper")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

@@ -118,4 +118,13 @@ public class UserController {
         userService.propagationNested();
         return "SUCCESS";
     }
+
+    @GetMapping("2-2")
+    public String twoPropagation(){
+        userService.propagationRequired();
+
+        userService.propagationRequiresNew();
+
+        return "SUCCESS";
+    }
 }

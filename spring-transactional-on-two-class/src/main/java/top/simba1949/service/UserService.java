@@ -22,7 +22,7 @@ public class UserService {
     private UserMapper userMapper;
 
     /**
-     * TODO
+     *
      * PROPAGATION_REQUIRED ：如果当前没有事务，就会创建一个事务；
      *                        如果已经存在一个事务中，加入到这个事务中。(Participating in existing transaction)
      */
