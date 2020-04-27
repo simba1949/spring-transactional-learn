@@ -1,0 +1,5 @@
+# Project exclude paths
+/spring-transactional-on-one-class/target/
+/spring-transactional-on-two-class/target/
+*.idea
+*.iml

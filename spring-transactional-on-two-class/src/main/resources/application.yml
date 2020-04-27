@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  # 项目名称配置
+  application:
+    name: spring-transactional-on-two-class
+  # 数据库基本配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: mysqlMYSQL
+
+# mybatis 配置
+mybatis:
+  type-aliases-package: top.top.simba1949.model
+  mapper-locations: classpath:top/top.simba1949/mapper/*Mapper.xml
+
+# 日志配置
+logging:
+  level:
+    root: debug
